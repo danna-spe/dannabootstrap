@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active"  aria-current=" page" href="inicio.html">inicio </a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="sitios.html">sitios turisticos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hoteles.html"> hoteles </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="restaurantes.html">restaurantes</a>
+        </li>
+            <img src="imagenes/tucan.png" alt="" height="50" width="50">
+
+        </li>
+        </li>
+      </ul>
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/IND.jpg" class="d-block w-100" alt="..." >
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: hsl(0, 14%, 91%);">1</h5>
+              <p style="color: rgb(255, 249, 249);">Ajiacos & Mondongos, en Medellín</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/piscina.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: rgb(255, 253, 253);">2</h5>
+              <p style="color: rgb(221, 221, 221);">Prudencia, en Bogotá</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/fachada.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: rgb(255, 251, 251);">3</h5>
+              <p style="color: rgb(255, 255, 255);">Sambombi, en Medellín</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+
+<br><br>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/pp.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ajiacos & Mondongos, en Medellín</h5>
+                  
+                  <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        click para ver mas
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel"> como llegar </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.754118229471!2d-75.58394520871914!3d6.213902290933358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429402fe89329%3A0x83ca711e8d30227c!2sRestaurante%20Gabo.mde%20Poblado!5e0!3m2!1ses-419!2sco!4v1729210057654!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                          </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                            <button type="button" class="btn btn-primary"> guardar cambios </button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/dd.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Prudencia, en Bogotá</h5>
+                  
+                   
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  click para ver mas 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">como llegar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9903186386546!2d-74.07326362501085!3d4.595756442558373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99af4965fde9%3A0xe7e227961d01ddcb!2sPrudencia!5e0!3m2!1ses-419!2sco!4v1729209981591!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                  
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/eje.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Sambombi, en Medellín</h5>
+                 
+                 
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+  click para ver mas 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">como llegar </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">18!1m12!1m3!1d1
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.73652238573!2d-75.5653058!3d6.2063259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429515b409a6d%3A0x99d8a58126e66fc!2sSambombi%20Bistr%C3%B3%20Local!5e0!3m2!1ses-419!2sco!4v1729209948554!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">guardar cambios</button>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      
+    
+
+
+     
+</body>
+</html>
